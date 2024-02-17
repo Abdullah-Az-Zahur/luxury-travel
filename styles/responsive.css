@@ -1,0 +1,327 @@
+@media screen and (max-width: 576px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    /* shared style start */
+    .section5,
+    .sec5-div1,
+    .card1,
+    .card2,
+    .card3,
+    .section10,
+    .section9 {
+        flex-direction: column;
+    }
+
+    .primary-text-style {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .secondary-text-style {
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2rem;
+        /* 171.429% */
+        width: 21rem;
+    }
+
+    /* shared style end */
+
+    /* nav style start */
+    .nav-section {
+        flex-direction: column;
+        /* align-items: center; */
+        /* width: 0; */
+    }
+
+    .nav-title {
+        margin-left: 1rem;
+    }
+
+    .nav-item ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-left: 9rem;
+        margin-bottom: 1rem;
+    }
+
+    /* nav style end */
+
+    /* header style start */
+    .header-title {
+        margin: 0px auto;
+        width: 21rem;
+        height: 30rem;
+        flex-shrink: 0;
+        border-radius: 1rem;
+        /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+    }
+
+    .header-title h1 {
+        padding: 1rem;
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .header-title p {
+        color: #FFF;
+        /* text-align: center; */
+        font-size: 0.7rem;
+        font-style: normal;
+        font-weight: 400;
+        /* line-height: 2rem; */
+        align-items: center;
+        width: 19rem;
+        /* 150% */
+    }
+
+    .header-form {
+        display: flex;
+        width: 18rem;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    /* header style end */
+    /* section 1 start */
+    .section1 .section1-container {
+        flex-direction: column;
+        max-width: 20rem;
+        margin: 0 auto;
+        /* margin-top: 5%; */
+    }
+
+    .section1-left h3 {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .section1-right img {
+        border-radius: 1rem;
+        background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+        width: 21rem;
+        height: 21rem;
+        flex-shrink: 0;
+    }
+
+    /* section 1 end */
+
+    /* section 3 start */
+    .section3,
+    .row,
+    .row2,
+    .row3 {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+        /* background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat; */
+        width: 21rem;
+        /* height: 11rem; */
+        flex-shrink: 0;
+    }
+
+    .row img {
+        display: flex;
+        flex-direction: column;
+        height: 176px;
+        flex-shrink: 0;
+    }
+
+    .row2 img {
+        display: flex;
+        flex-direction: column;
+        height: 176px;
+        flex-shrink: 0;
+    }
+
+    .row3 img {
+        display: flex;
+        flex-direction: column;
+        height: 176px;
+        flex-shrink: 0;
+    }
+
+    */
+    /* section 3 end */
+
+    /* section 4 start */
+    .section4 p {
+        max-width: 100%;
+
+    }
+
+    /* section 4 end */
+
+    /* section 5 start */
+    .card1,
+    .card2,
+    .card3 {
+        width: 21rem;
+        height: 18rem;
+        flex-shrink: 0;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    /* section 5 end */
+    /* section 7 start */
+    .section7 img {
+        width: 335px;
+        height: 500px;
+        flex-shrink: 0;
+        flex-direction: column;
+        display: flex;
+        padding: 1%;
+    }
+
+    /* section 7 end */
+
+    /* section 9 start */
+    .sec9-div-left h2 {
+        width: 248px;
+    }
+
+    .sec9-div-left p {
+        width: 335px;
+    }
+
+    .sec9-div-left li {
+        width: 335px;
+    }
+
+    .sec9-div-right video {
+        width: 335px;
+        height: 200px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+    }
+
+    /* section 9 end */
+
+    /* section 10 start */
+
+    .section10 {
+        width: 21rem;
+        /* height: 18rem; */
+        flex-shrink: 0;
+        align-items: center;
+        margin: 0 auto;
+        /* border: 2px solid blue; */
+
+    }
+
+    .sec10-form,
+    .card4 {
+        width: 21rem;
+        /* height: 18rem; */
+        flex-shrink: 0;
+        align-items: center;
+        margin: 0 auto;
+        /* margin-left: 2%; */
+        /* border: 2px solid red; */
+    }
+
+    .input2 {
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        width: 21rem;
+        height: 52px;
+        flex-shrink: 0;
+    }
+
+    .btn-2 {
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+        /* text color */
+        border-radius: 8px;
+        background: #FF5400;
+    }
+
+    /* offer-batch style */
+    .offer-batch {
+        width: 13.3rem;
+        height: 5rem;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 0.6rem;
+        background: #FF5400;
+        position: relative;
+        bottom: 7.4rem;
+        left: 7.4rem;
+    }
+
+    .offer-batch h3 {
+        transform: rotate(-19.628deg);
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+
+    }
+
+    .offer-batch p {
+        transform: rotate(-19.628deg);
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    /* section 10 end */
+
+    /* footer start */
+    .footer {
+        width: 375px;
+        height: 309px;
+        flex-shrink: 0;
+        margin-top: 20%;
+    }
+
+    .footer p {
+        width: 287px;
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 171.429% */
+    }
+
+    /* footer end */
+
+}
