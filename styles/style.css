@@ -457,31 +457,60 @@ option {
     padding: 5%;
     margin-top: 1%;
     margin-left: 4%;
-    width: 1300px;
-    /* height: 500px; */
+    width: 100%; /* Make it responsive */
+    max-width: 1300px; /* Maintain a maximum width */
     flex-shrink: 0;
     border-radius: 1rem;
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
 
+/* Center the button and make it responsive */
+.section7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .section7 button {
-    width: 210px;
+    width: 100%;
+    max-width: 210px;
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
     text-align: center;
-    font-family: Mulish;
+    font-family: Mulish, sans-serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: 800;
     line-height: normal;
     margin-bottom: 5%;
-    margin-left: 40%;
-
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .section7-img {
+        padding: 3%;
+        margin-left: 0;
+    }
+
+    .section7 button {
+        font-size: 18px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section7-img {
+        padding: 2%;
+    }
+
+    .section7 button {
+        font-size: 16px;
+        height: 40px;
+    }
+}
+
 
 /* section 7 end */
 
